@@ -7,7 +7,7 @@ module.exports = [
         method: "GET",
         path: "/",
         handler: (req, res) => {
-            return res.response({message: "the cake is a lie"}).code(200)
+            return res.response({message: "micro api do Juliano"}).code(200)
         }
     },
     {
