@@ -7,12 +7,12 @@ module.exports = [
         method: "GET",
         path: "/",
         handler: (req, res) => {
-            return res.response({message: "micro api do thespamer"}).code(200)
+            return res.response({message: "micro api do thespamer, veja /hello/(nome), /system /fibonacci(n) também"}).code(200)
         }
     },
     {
         method: "GET",
-        path: "/oi/{name}",
+        path: "/hello/{name}",
         handler: (req, res) => `Hello, ${req.params.name}!!`
     },
     {
