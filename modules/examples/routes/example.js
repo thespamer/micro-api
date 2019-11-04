@@ -7,7 +7,7 @@ module.exports = [
         method: "GET",
         path: "/",
         handler: (req, res) => {
-            return res.response({message: "Micro api de exemplo, veja /hello/(nome), /system /fibonacci(n) também"}).code(200)
+            return res.response({message: "Micro api de exemplo, veja /hello/(nome), /system /fibonacci(n) e /healthcheck também"}).code(200)
         }
     },
     {
