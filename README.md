@@ -10,6 +10,8 @@
 
 ## Project Architecture 
 
+---
+
 ```bash
 .
 ├── configs             # Server configs
